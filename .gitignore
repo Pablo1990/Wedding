@@ -1,0 +1,7 @@
+### Remix+Netlify template
+/.netlify
+
+
+.idea/
+
+.DS_Store
