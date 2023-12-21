@@ -668,3 +668,12 @@ body.preloader-site {
   text-align: center;
   padding: 10px;
 }
+
+.fitted img {
+    height: 80%; /* Set the height to 100% */
+    width: 80%; /* Set the width to 100% */
+    object-fit: cover; /* Set object-fit to cover */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
