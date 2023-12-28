@@ -524,6 +524,19 @@ body.preloader-site {
 
 }
 
+.flag-button {
+  width: 40px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+}
+
+#language-switcher {
+  background-image: url('image/spanish-flag.jpg');
+}
+
 .voucher-code {
   height: 55px;
   max-width: 180px;
