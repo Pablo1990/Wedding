@@ -34,25 +34,6 @@
         gtag('config', 'UA-23064379-20');
     </script>
     <!-- End Script for Countdown -->
-    <script>
-        const switchButton = document.getElementById('language-switcher');
-        const currentLanguage = localStorage.getItem('currentLanguage') || 'english';
-
-        // Function to toggle the language and navigate to the corresponding page
-        function toggleLanguage() {
-            if (currentLanguage === 'english') {
-                // Switch to Spanish
-                window.location.href = 'index_es.html'; // Redirect to the Spanish version
-            } else {
-                // Switch to English
-                window.location.href = 'index.html'; // Redirect to the English version
-            }
-        }
-
-        // Attach the language switcher function to your button
-        switchButton.addEventListener('click', toggleLanguage);
-    </script>
-
     <!-- Github Button -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
@@ -171,8 +152,14 @@
                     });
                 </script>
             </div>
+
             <div class="container has-text-centered">
-                <button id="language-switcher" class="flag-button"></button>
+                <a href="index.html">
+                    <img src="image/uk-flag.jpg" alt="UK Flag" class="flag-icon">
+                </a>
+                <a href="index_es.html">
+                    <img src="image/spanish-flag.jpg" alt="Spain Flag" class="flag-icon">
+                </a>
             </div>
             <!-- End Countdown -->
         </div>

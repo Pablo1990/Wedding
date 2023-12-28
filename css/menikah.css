@@ -524,17 +524,10 @@ body.preloader-site {
 
 }
 
-.flag-button {
+/* Style the flag icons within labels */
+.flag-icon {
   width: 40px;
-  height: 30px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: none;
-  cursor: pointer;
-}
-
-#language-switcher {
-  background-image: url('image/spanish-flag.jpg');
+  height: auto;
 }
 
 .voucher-code {
