@@ -38,7 +38,7 @@ html {
 .hero {
   background-image: url(https://picsum.photos/id/25/1920/1080);
   /* that photo is about to change */ 
-  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("https://a.cdn-hotels.com/gdcs/production143/d1412/94264db8-f149-4f6a-b6ba-2030c994028b.jpg") no-repeat;
+  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
