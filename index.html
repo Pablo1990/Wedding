@@ -33,7 +33,25 @@
 
         gtag('config', 'UA-23064379-20');
     </script>
-    <!-- Begin Script for Countdown -->
+    <!-- End Script for Countdown -->
+    <script>
+        const switchButton = document.getElementById('language-switcher');
+        const currentLanguage = localStorage.getItem('currentLanguage') || 'english';
+
+        // Function to toggle the language and navigate to the corresponding page
+        function toggleLanguage() {
+            if (currentLanguage === 'english') {
+                // Switch to Spanish
+                window.location.href = 'index_es.html'; // Redirect to the Spanish version
+            } else {
+                // Switch to English
+                window.location.href = 'index.html'; // Redirect to the English version
+            }
+        }
+
+        // Attach the language switcher function to your button
+        switchButton.addEventListener('click', toggleLanguage);
+    </script>
 
     <!-- Github Button -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
@@ -86,10 +104,9 @@
                     </div>
                     <div class="navbar-item">
                         <a class="navbar-item" href="#OtherInfo">
-                            RSVP
+                            Other information
                         </a>
                     </div>
-                    <div cla
                     <div class="navbar-item">
                         <a class="navbar-item" href="#rsvp">
                             RSVP
@@ -153,6 +170,9 @@
                         //alert('Done!');
                     });
                 </script>
+            </div>
+            <div class="container has-text-centered">
+                <button id="language-switcher" class="flag-button"></button>
             </div>
             <!-- End Countdown -->
         </div>
@@ -249,11 +269,13 @@
                             To get from Alicante Airport to Torrevieja, you can either:
                         </p>
                         <ul class="tempat is-larger">
-                            <li>- Get a <a href="https://www.booking.com/taxi/index.en-gb.html">Taxi</a>. Price
+                            <li>- Get a <a href="https://www.booking.com/taxi/index.en-gb.html" target="_blank">Taxi</a>.
+                                Price
                                 (approx.): 65£/taxi. Time: 45 min.
                             </li>
                             <li>- Get a <a
-                                    href="https://costazul.net/en/purchase-ticket-alicante-elche-airport/">Bus</a>:
+                                    href="https://costazul.net/en/purchase-ticket-alicante-elche-airport/"
+                                    target="_blank">Bus</a>:
                                 Price: 7€. Time: 1h 20m
                             </li>
                         </ul>
@@ -268,7 +290,8 @@
                             To get from Murcia Airport to Torrevieja, you can either:
                         </p>
                         <ul class="tempat is-larger">
-                            <li>- Get a <a href="https://www.booking.com/taxi/index.en-gb.html">Taxi</a>. Price
+                            <li>- Get a <a href="https://www.booking.com/taxi/index.en-gb.html" target="_blank">Taxi</a>.
+                                Price
                                 (approx.): 76£/taxi. Time: 1h
                             </li>
                         </ul>
@@ -312,7 +335,8 @@
                                          data-aos-easing="linear">
                                     <div class="content">
                                         <p class="title-foto">
-                                            <a href="https://www.hostalhbtorrevieja.es/Inicio/w/en">Hostal HB</a>
+                                            <a href="https://www.hostalhbtorrevieja.es/Inicio/w/en" target="_blank">Hostal
+                                                HB</a>
                                         </p>
                                         <p class="subtitle-foto">
                                             Price (approx.): £139.71 for 2 nights (2 people)
@@ -328,7 +352,8 @@
                                          data-aos-easing="linear">
                                     <div class="content">
                                         <p class="title-foto">
-                                            <a href="https://www.hotelmonse.com/?lan=en">Hotel Dña Monse</a>
+                                            <a href="https://www.hotelmonse.com/?lan=en" target="_blank">Hotel Dña
+                                                Monse</a>
                                         </p>
                                         <p class="subtitle-foto">
                                             Price (approx.): £198 for 2 nights (2 people)
@@ -387,10 +412,10 @@
                     <div class="column">
                         <p class="tempat is-larger has-text-centered">
                             <strong>
-                                5 pm - Churros con chocolate
+                                5 pm - Churros with hot chocolate
                             </strong>
                         </p>
-                        <img src="image/churros.png" alt="AI generated churros with chocolate">
+                        <img src="image/churros.png" alt="AI generated churros with hot chocolate">
                     </div>
                     <div class="column">
                         <p class="tempat is-larger has-text-centered">
@@ -415,7 +440,8 @@
             <div class="space40px"></div>
             <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
                 <p class="tempat is-larger has-text-centered">
-                    <strong>Whilst you are in <a href="https://turismodetorrevieja.com/web/?lang=en">Torrevieja</a>, you
+                    <strong>Whilst you are in <a href="https://turismodetorrevieja.com/web/?lang=en" target="_blank">Torrevieja</a>,
+                        you
                         can enjoy the attractions from <i>astonishing</i> Spain</strong>
                 </p>
                 <div class=" tile">
@@ -457,7 +483,7 @@
                                      data-aos-easing="linear">
                                 <div class="content">
                                     <p class="title-foto"><a
-                                            href="https://turismodetorrevieja.com/web/?page_id=141&lang=en"
+                                            href="https://maps.app.goo.gl/gkWMnzMJeDTH1VKs6"
                                             target="_blank">Church</a>
                                     </p>
                                     <p class="subtitle-foto">
@@ -780,10 +806,10 @@
 <!-- Begin Footer -->
 <div class="footer">
     <div class="container">
-        <a href="https://bulma.io" class="has-vertically-align">
+        <a href="https://bulma.io" class="has-vertically-align" target="_blank">
             <img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma">
         </a>
-        <a href="https://www.netlify.com">
+        <a href="https://www.netlify.com" target="_blank">
             <img src="https://www.netlify.com/img/global/badges/netlify-color-bg.svg" alt="Deploy with Netlify"/>
         </a>
     </div>
