@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato|Raleway|Rouge+Script");
+@import url("https://fonts.googleapis.com/css?family=Gilda+Display|Rouge+Script");
 .has-vertically-aligned-content {
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@
 }
 
 html {
-  font-family: 'Raleway', Tahoma, sans-serif;
+  font-family: 'Rouge Script', Tahoma, sans-serif;
   width: 100%;
   min-height: 100%;
 }
@@ -26,52 +26,45 @@ html {
   font-size: 1rem;
 }
 
+.hero .ampersand {
+  font-size: 3rem;
+  color: #1e233e;
+}
+
 .navbar-item.is-active{
   border-bottom: 2px solid #996E6D;
 }
 
-.a.navbar-item{
-  font-color: #996E6D;
-}
-
-
 .hero {
-  background-image: url(https://picsum.photos/id/25/1920/1080);
-  /* that photo is about to change */ 
-  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) no-repeat;
-  background-attachment: fixed;
+  background: rgb(254, 253, 251) no-repeat fixed;
   background-size: cover;
-  color: white;
+  color: #1e233e;
   box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Gilda Display', sans-serif;
 }
-
-
 
 .hero .title {
-  font-family: 'Rouge Script', sans-serif;
-  font-weight: 700;
-  transform: rotate(-2deg);
+  font-family: 'Gilda Display', serif;
+  font-weight: 1;
   font-size: 5rem;
   padding-bottom: 5px;
-  color: whitesmoke;
+  color: #1e233e;
 }
 
 .hero .subtitle {
   padding: 35px;
-  color: whitesmoke;
+  color: #1e233e;
   font-size: 1.3rem;
 }
 
 .hero .tempatwaktu {
   padding-top: 35px;
   font-size: 1.3rem;
-  
 }
 
 .hero .hero-foot {
   height: 50px;
-  background: white;
+  background: #1e233e;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.082);
 }
 
@@ -100,17 +93,17 @@ html {
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li.is-active a {
-  border-bottom: 2px solid #996E6D;
+  border-bottom: 2px solid #FEFDFB;
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a {
-  color: #996E6D;
+  color: #FEFDFB;
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a:hover {
-  color: #996E6D;
+  color: white;
   transition: all .2s ease-in-out;
-  border-bottom: 2px solid #c28285;
+  border-bottom: 2px solid white;
 }
 
 .column img {
@@ -127,17 +120,17 @@ html {
 
 .main-content {
   padding-top: 2rem;
-  color: #000; 
-  font-family: 'Raleway', sans-serif;
+  color: #1e233e;
+  font-family: 'Rouge Script', sans-serif;
 }
 
 .main-content .section-dark {
-  background-color: #F4E2E2;
+  background-color: #FEFDFB;
   padding: 80px 40px;
 }
 
 .main-content .section-darker {
-  background-color: #EDD2D1;
+  background-color: #1e233e;
   padding: 80px 40px;
 }
 
@@ -159,7 +152,7 @@ html {
 
 .main-content .section-dark.resume button {
   border: 2px solid #996E6D;
-  background: white;
+  background: #FEFDFB;
   color: #996E6D;
   height: 50px;
   width: 250px;
@@ -209,10 +202,14 @@ html {
 
 .main-content .section-light {
   padding: 80px 40px;
+  background: rgb(254, 253, 251) no-repeat fixed;
+  background-size: cover;
 }
 
 .main-content .section-light.regular-section {
   padding-bottom: 80px;
+  background: rgb(254, 253, 251) no-repeat fixed;
+  background-size: cover;
 }
 
 .main-content .section-light.regular-section .is-larger {
@@ -259,7 +256,7 @@ html {
 
 .main-content .section-light.contact button {
   width: 100%;
-  color: white;
+  color: #FEFDFB;
   height: 50px;
   font-size: 1.1rem;
   text-transform: uppercase;
@@ -275,12 +272,12 @@ html {
 .main-content .section-color.pertanyaan {
   padding: 100px;
   background-color: #996E6D;
-  color: white;
+  color: #FEFDFB;
 }
 
 .main-content .section-color.pertanyaan .title,
 .main-content .section-color.pertanyaan .subtitle {
-  color: white;
+  color: #FEFDFB;
 }
 
 .main-content .section-color.pertanyaan i {
@@ -291,33 +288,15 @@ html {
 .main-content .section-title {
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
-  color: #996E6D;
+  color: #1e1f1c;
   text-transform: uppercase;
   font-size: 1.5rem;
   letter-spacing: 0px;
   padding-bottom: 60px;
 }
 
-.nama-lengkap {
-  font-family: 'Rouge Script', sans-serif;
-  color: #996E6D;
-  font-size: 3.5rem;
-  letter-spacing: 0px;
-  padding-bottom: 6px;
-  line-height: 3.7rem;
-}
-
-.ampersand {
-font-size: 5rem;
-font-family: 'Rouge Script', sans-serif;
-color: #996E6D;
-line-height: 5rem;
-display: inline-block;
-vertical-align: middle;
-}
-
 .bodytext {
-  font-size: 18px;
+  font-size: 2rem;
 }
 
 .waktu {
@@ -351,11 +330,11 @@ vertical-align: middle;
   text-align: center;
   vertical-align: middle;
   background: #c28285;
-  color: whitesmoke;    
+  color: #FEFDFB;
 }
 
 .footer p {
-  color: white;
+  color: #FEFDFB;
   font-weight: 500;
   font-size: 10pt;
   display: inline-block;
@@ -375,7 +354,7 @@ vertical-align: middle;
 }
 
 .footer a .nav-item {
-  color: whitesmoke;
+  color: #FEFDFB;
 }
 
 .fa-download {
@@ -407,7 +386,7 @@ vertical-align: middle;
   border: none;
   outline: none;
   background-color: #996E6D;
-  color: white;
+  color: #FEFDFB;
   cursor: pointer;
   border-radius: 50%;
   font-size: 2rem;
@@ -415,7 +394,7 @@ vertical-align: middle;
 }
 
 #toTop a {
-  color: white;
+  color: #FEFDFB;
 }
 
 #toTop:hover {
@@ -440,7 +419,7 @@ body.preloader-site {
 .preloader-wrapper {
   height: 100%;
   width: 100%;
-  background: #D8A9A8;
+  background: #1e233e;
   position: fixed;
   top: 0;
   left: 0;
@@ -483,7 +462,7 @@ body.preloader-site {
   border-bottom: 1px solid #6cc751;
   align-items: center;
   margin: 1rem;
-
+  filter: grayscale(80%);
 }
 
 
@@ -528,6 +507,7 @@ body.preloader-site {
 .flag-icon {
   width: 40px;
   height: auto;
+  filter: grayscale(70%);
 }
 
 .voucher-code {
@@ -557,13 +537,6 @@ body.preloader-site {
 }
 .white
 {color:ghostwhite}
-
-
-.dusty-pink {color: #D8A9A8}
-.dusty-pink-lighter {color: #EDD2D1}
-.dusty-pink-lightest {color: #F4E2E2}
-.dusty-pink-darker {color: #BC8887}
-.dusty-pink-darkest {color: #996E6D}
 
 .tile {
   border-radius: 10px;
@@ -643,18 +616,17 @@ body.preloader-site {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   text-align: left;
-  color: white;
+  color: #FEFDFB;
 }
 
 
 .subtitle-foto {
   font-family: 'Lato', sans-serif;
-  font-weight: 700;
   font-size: 14pt;
   font-weight: 600;
   margin-top: 15px;
   text-align: left;
-  color: white;
+  color: #FEFDFB;
 }
 
 .section-light {

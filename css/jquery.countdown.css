@@ -4,22 +4,22 @@ ul#hitungmundur {
 	padding: 0;
 	display: block;
 	text-align: center;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Gilda Display', sans-serif;
 }
 ul#hitungmundur li {
 	display: inline-block;
 }
 ul#hitungmundur li span {
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 500;
 	line-height: 30px;
 }
 ul#hitungmundur li.separator {
-	font-size: 30px;
+	font-size: 25px;
 	line-height: 25px;
 	vertical-align: top;
 }
 ul#hitungmundur li p {
-	color: #fff;
-	font-size: 16px;
+	color: #1e233e;
+	font-size: 10px;
 }
