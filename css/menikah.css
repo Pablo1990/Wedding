@@ -129,7 +129,7 @@ html {
   background-size: 10%;
   padding: 80px 40px;
   alpha(opacity=50);
-  filter: grayscale(100%);
+  filter: grayscale(30%);
 }
 
 .main-content .section-dark.resume {
@@ -327,7 +327,7 @@ html {
   line-height: 25px;
   text-align: center;
   vertical-align: middle;
-  background: #c28285;
+  background: #1e233e;
   color: #FEFDFB;
 }
 
@@ -383,7 +383,7 @@ html {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #996E6D;
+  background-color: #1e233e;
   color: #FEFDFB;
   cursor: pointer;
   border-radius: 50%;
@@ -635,7 +635,7 @@ body.preloader-site {
 }
 
 .instagram {
-  color: #996E6D;
+  color: #1e233e;
   font-size: 1.25rem;
   font-weight: 900;
   margin-top: 0.5rem;
