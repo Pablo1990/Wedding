@@ -10,17 +10,12 @@
 }
 
 html {
-  font-family: 'Rouge Script', Tahoma, sans-serif;
   width: 100%;
   min-height: 100%;
 }
 
 body {
   font-size: 2rem;
-}
-
-.header-wrapper {
-  padding-bottom: 30px;
 }
 
 .navbar-item {
@@ -123,17 +118,19 @@ body {
 }
 
 .main-content {
-  padding-top: 2rem;
   color: #1e233e;
+  font-family: 'Gilda Display', sans-serif;
+}
+
+.main-content .letter {
   font-family: 'Rouge Script', sans-serif;
+  font-size: 2rem;
 }
 
 .main-content .section-darker {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), rgba(0, 0, 0, 0.55) url("../image/geometric-background.png") repeat;
-  background-size: 10%;
   padding: 80px 40px;
-  alpha(opacity=50);
-  filter: grayscale(30%);
+  background: rgb(255, 255, 255) no-repeat fixed;
+  background-size: cover;
 }
 
 .main-content .section-dark.resume {
@@ -203,15 +200,10 @@ body {
 }
 
 .main-content .section-light {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), rgba(0, 0, 0, 0.55) url("../image/geometric-background.png") repeat;
+  background-size: 10%;
   padding: 80px 40px;
-  background: rgb(254, 253, 251) no-repeat fixed;
-  background-size: cover;
-}
-
-.main-content .section-light.regular-section {
-  padding-bottom: 80px;
-  background: rgb(254, 253, 251) no-repeat fixed;
-  background-size: cover;
+  filter: grayscale(30%);
 }
 
 .main-content .section-light.regular-section .is-larger {
@@ -288,7 +280,6 @@ body {
 }
 
 .main-content .section-title {
-  font-family: 'Raleway', sans-serif;
   font-weight: 900;
   color: #1e1f1c;
   text-transform: uppercase;
@@ -297,28 +288,21 @@ body {
   padding-bottom: 60px;
 }
 
-.bodytext {
-  font-size: 2rem;
-}
-
 .waktu {
   font-size: 1.4rem;
-  font-family: 'Raleway', sans-serif;
 }
 
 .tanggal-angka {
   font-size: 5rem;
-  font-family: 'Raleway', sans-serif;
   font-weight: 900;
   line-height: 1;
 }
 
-.tempat {
-  font-size: 1.4rem;
-  font-family: 'Raleway', sans-serif;
-  margin-bottom: 50px;
+.sub_title {
+  font-family: 'Gilda Display', serif;
+  font-size: 1rem;
+  margin-bottom: 20px;
 }
-
 
 .has-vertically-align {
   vertical-align: middle;
@@ -395,25 +379,6 @@ body {
   box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
 }
 
-#toTop a {
-  color: #FEFDFB;
-}
-
-#toTop:hover {
-  background-color: #BC8887;
-}
-
-::-webkit-scrollbar {
-  width: 8px;
-  background-color: #F4E2E2;
-}
-
-::-webkit-scrollbar-thumb {
-  box-shadow: inset 0 0 6px #996E6D;
-  -webkit-box-shadow: inset 0 0 6px #996E6D;
-  background-color: #BC8887;
-}
-
 body.preloader-site {
   overflow: hidden;
 }
@@ -440,10 +405,10 @@ body.preloader-site {
 
 .btn-whatsapp:hover {
   color: white;
-  background-color: #59a543;
+  background-color:  #1b41e0;
   font-size: 2.2rem;
   border-radius: 10px;
-  border: 2px solid #59a543;
+  border: 2px solid #1e233e;
   width:  210px;
   height: 65px;
   align-items: center;
@@ -452,16 +417,16 @@ body.preloader-site {
 
 
 .btn-whatsapp {
-  background-color: #6cc751;
+  background-color: #1b41e0;
   width:  210px;
   height: 65px;
   color: white;
   font-size: 2rem;
   border-radius: 10px;  
-  border-left: 1px solid #6cc751;
-  border-right: 1px solid #6cc751;
-  border-top: 1px solid #6cc751;
-  border-bottom: 1px solid #6cc751;
+  border-left: 1px solid #1e233e;
+  border-right: 1px solid #1e233e;
+  border-top: 1px solid #1e233e;
+  border-bottom: 1px solid #1e233e;
   align-items: center;
   margin: 1rem;
   filter: grayscale(80%);
@@ -590,7 +555,6 @@ body.preloader-site {
 
 .title-foto {
   font-size: 18pt;
-  font-family: 'Lato', sans-serif;
   font-weight: 700;
   text-align: left;
   color: #FEFDFB;
@@ -598,9 +562,8 @@ body.preloader-site {
 
 
 .subtitle-foto {
-  font-family: 'Lato', sans-serif;
-  font-size: 14pt;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 300;
   margin-top: 15px;
   text-align: left;
   color: #FEFDFB;
