@@ -31,7 +31,7 @@ body {
 }
 
 .navbar-item.is-active{
-  border-bottom: 2px solid #996E6D;
+  border-bottom: 2px solid #1e233e;
 }
 
 .hero {
@@ -149,20 +149,6 @@ body {
   padding: 20px;
 }
 
-.main-content .section-dark.resume button {
-  border: 2px solid #996E6D;
-  background: #FEFDFB;
-  color: #996E6D;
-  height: 50px;
-  width: 250px;
-  font-size: 1rem;
-  text-transform: uppercase;
-}
-
-.main-content .section-dark.resume .fa-download {
-  color: #996E6D;
-}
-
 .main-content .section-dark.my-work {
   padding: 80px 40px;
 }
@@ -261,12 +247,6 @@ body {
   .main-content .section-light.contact {
     padding: 80px 40px;
   }
-}
-
-.main-content .section-color.pertanyaan {
-  padding: 100px;
-  background-color: #996E6D;
-  color: #FEFDFB;
 }
 
 .main-content .section-color.pertanyaan .title,
@@ -486,7 +466,7 @@ body.preloader-site {
 
 
 .foto1 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/fontana.jpg");
+  background-image: linear-gradient(rgb(30, 35, 62), rgba(48, 47, 47, 0.9)), url("../image/fontana.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -495,7 +475,7 @@ body.preloader-site {
 
 
 .foto2 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/monse.jpg");
+  background-image: linear-gradient(rgb(30, 35, 62), rgba(48, 47, 47, 0.9)), url("../image/monse.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -503,7 +483,7 @@ body.preloader-site {
 }
 
 .foto3 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/hostal.jpg");
+  background-image: linear-gradient(rgb(30, 35, 62), rgba(48, 47, 47, 0.9)), url("../image/hostal.jpg");
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
@@ -511,7 +491,7 @@ body.preloader-site {
 }
 
 .foto4 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/alternatives.png");
+  background-image: linear-gradient(rgb(30, 35, 62), rgba(48, 47, 47, 0.9)), url("../image/alternatives.png");
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
@@ -519,7 +499,7 @@ body.preloader-site {
 }
 
 .foto5 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/puerto.jpeg");
+  background-image: linear-gradient(rgb(30, 35, 62), rgba(48, 47, 47, 0.9)), url("../image/puerto.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -528,7 +508,7 @@ body.preloader-site {
 
 
 .foto6 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/playa.jpeg");
+  background-image: linear-gradient(rgb(30, 35, 62), rgba(48, 47, 47, 0.9)), url("../image/playa.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -536,7 +516,7 @@ body.preloader-site {
 }
 
 .foto7 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/iglesia.jpeg");
+  background-image: linear-gradient(rgb(30, 35, 62), rgba(48, 47, 47, 0.9)), url("../image/iglesia.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -544,7 +524,7 @@ body.preloader-site {
 }
 
 .foto8 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/casino.jpeg");
+  background-image: linear-gradient(rgb(30, 35, 62), rgba(48, 47, 47, 0.9)), url("../image/casino.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
