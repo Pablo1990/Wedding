@@ -529,6 +529,76 @@
                         Por favor, confirma tu asistencia antes de junio de 2024.
                     </p>
                     <div class="space40px"></div>
+                    <form name="RSVP" method="POST" data-netlify="true">
+                        <input type="hidden" name="subject" value="RSVP spanish"/>
+                        <p>
+                            <label>Tu nombre: <input type="text" name="name" required/></label>
+                        </p>
+                        <p>
+                            <label>Tu número de teléfono: <input type="tel" name="phone" required/></label>
+                        </p>
+                        <p>
+                            <label>¿Asistirás a la boda?
+                                <select name="attendance" required>
+                                    <option value="">Seleccionar...</option>
+                                    <option value="yes">Sí</option>
+                                    <option value="no">No</option>
+                                </select>
+                            </label>
+                        </p>
+                        <p>
+                            <label>Número de personas que asisten: <input type="number" name="people" min="1" required/></label>
+                        </p>
+                        <p>
+                            <label>Número de niños que asisten: <input type="number" name="kids" min="0"
+                                                                       required/></label>
+                        </p>
+                        <p>
+                            <label>¿Tomarás el autobús lanzadera?
+                                <select name="shuttle" required>
+                                    <option value="">Seleccionar...</option>
+                                    <option value="yes">Sí</option>
+                                    <option value="no">No</option>
+                                </select>
+                            </label>
+                        </p>
+                        <p>
+                            <label>¿Asistirás a la pre-boda?
+                                <select name="pre-wedding" required>
+                                    <option value="">Seleccionar...</option>
+                                    <option value="yes">Sí</option>
+                                    <option value="no">No</option>
+                                </select>
+                            </label>
+                        </p>
+                        <p>
+                            <label>Requerimientos dietéticos:
+                                <select name="diet" required>
+                                    <option value="">Seleccionar...</option>
+                                    <option value="none">Ninguno</option>
+                                    <option value="vegetarian">Vegetariano</option>
+                                    <option value="vegan">Vegano</option>
+                                    <option value="gluten-free">Sin gluten</option>
+                                    <option value="other">Otro</option>
+                                </select>
+                            </label>
+                        </p>
+                        <p id="otherDiet">
+                            <label>Por favor, especifique si 'otro':
+                                <input type="text" name="otherDiet"/>
+                            </label>
+                        </p>
+                        <p>
+                            <button type="submit" class="button btn-whatsapp">Enviar</button>
+                        </p>
+                    </form>
+
+                    <div class="space40px"></div>
+
+                    <p class="h2">
+                        Por favor, mándanos un mensaje si tienes alguna pregunta:
+                    </p>
+
                     <a href="https://api.whatsapp.com/send?phone=4407521127767&text=Hola%20Pablo%20,&source=&data="
                        class="button btn-whatsapp" target="_blank" data-aos="zoom-in">
                         <i class="fab fa-whatsapp"></i>
