@@ -856,7 +856,7 @@ form label {
     }
 }
 
-.padding-left-right-40 {
-    padding-left: 40px;
-    padding-right: 40px;
+.padding-left-right-10-perc {
+    padding-left: 10%;
+    padding-right: 10%;
 }
