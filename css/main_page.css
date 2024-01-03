@@ -737,7 +737,6 @@ form label {
     position: absolute;
     padding-left: 10px;
     top: 16px;
-    right: 5px;
     z-index: 100;
     border-radius: 50%;
     cursor: default;
