@@ -521,6 +521,23 @@
                         Please, confirm your assistance by June 2024.
                     </p>
                     <div class="space40px"></div>
+
+                    <form name="contact" method="POST" data-netlify="true">
+                        <input type="hidden" name="subject"
+                               value="RSVP from %{formName} (%{submissionId})"/>
+                        <p>
+                            <label>Your Name: <input type="text" name="name"/></label>
+                        </p>
+                        <p>
+                            <label>Your Email: <input type="email" name="email"/></label>
+                        </p>
+                        <p>
+                            <label>Message: <textarea name="message"></textarea></label>
+                        </p>
+                        <p>
+                            <button type="submit">Send</button>
+                        </p>
+                    </form>
                     <a href="https://api.whatsapp.com/send?phone=4407521127767&text=Hi%20Pablo%20,&source=&data="
                        class="button btn-whatsapp" target="_blank" data-aos="zoom-in">
                         <i class="fab fa-whatsapp"></i>
