@@ -119,7 +119,7 @@ body {
 
 .main-content .letter {
     font-family: 'Rouge Script', sans-serif;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 .main-content .section-darker {
@@ -470,7 +470,7 @@ body.preloader-site {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 24rem;
+    min-height: 15rem;
 }
 
 
@@ -479,7 +479,7 @@ body.preloader-site {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 24rem;
+    min-height: 15rem;
 }
 
 .foto3 {
@@ -487,7 +487,7 @@ body.preloader-site {
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
-    min-height: 24rem;
+    min-height: 15rem;
 }
 
 .foto4 {
@@ -495,7 +495,7 @@ body.preloader-site {
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
-    min-height: 24rem;
+    min-height: 15rem;
 }
 
 .foto5 {
@@ -503,7 +503,7 @@ body.preloader-site {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 24rem;
+    min-height: 15rem;
 }
 
 
@@ -512,7 +512,7 @@ body.preloader-site {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 24rem;
+    min-height: 15rem;
 }
 
 .foto7 {
@@ -520,7 +520,7 @@ body.preloader-site {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 24rem;
+    min-height: 15rem;
 }
 
 .foto8 {
@@ -528,7 +528,7 @@ body.preloader-site {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 24rem;
+    min-height: 15rem;
 }
 
 .separator {
