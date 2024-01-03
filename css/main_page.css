@@ -574,3 +574,7 @@ body.preloader-site {
     margin-left: auto;
     margin-right: auto;
 }
+
+form label {
+    font-size: 1.5rem;
+}
