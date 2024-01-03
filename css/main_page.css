@@ -585,7 +585,7 @@ form label {
 .timeline {
     max-width: 800px;
     list-style: none;
-    padding: 20px 0 20px;
+    padding: 0 0 20px;
     position: relative;
     font-size: 1rem;
 }
@@ -630,8 +630,6 @@ form label {
     width: 92%;
     float: left;
     border: 1px solid #000000;
-    /*border-radius: 2px;*/
-    /*padding: 20px;*/
     position: relative;
     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
@@ -660,12 +658,6 @@ form label {
     border-bottom: 14px solid transparent;
     content: " ";
 }
-
-.timeline-panel img {
-    width: 100%;
-    padding: 10px 10px 0 10px;
-}
-
 
 /*Inverted panel*/
 .timeline > li.timeline-inverted > .timeline-panel {
@@ -732,7 +724,7 @@ form label {
 /*Badge*/
 .timeline > li > .timeline-badge {
     line-height: 50px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     text-align: left;
     position: absolute;
     padding-left: 10px;
