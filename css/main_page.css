@@ -381,7 +381,7 @@ body.preloader-site {
 .btn-whatsapp:hover {
     color: white;
     background-color: #1b41e0;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     border-radius: 10px;
     border: 2px solid #1e233e;
     width: 210px;
@@ -396,7 +396,7 @@ body.preloader-site {
     width: 210px;
     height: 65px;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     border-radius: 10px;
     border-left: 1px solid #1e233e;
     border-right: 1px solid #1e233e;
