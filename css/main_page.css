@@ -711,7 +711,7 @@ form label {
 /*Badge*/
 .timeline > li > .timeline-badge {
     line-height: 50px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     text-align: left;
     position: absolute;
     padding-left: 10px;
