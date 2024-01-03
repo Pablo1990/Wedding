@@ -601,21 +601,8 @@ form label {
     margin-left: -1.5px;
 }
 
-.arrowhead {
-    width: 0;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    margin-left: -15px;
-
-    border-top: 0 solid transparent;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-bottom: 15px solid #404b83;
-}
-
 .timeline > li {
-    min-height: 250px;
+    min-height: 200px;
     width: 50%;
     padding-left: 42px;
     padding-right: 42px;
@@ -697,7 +684,7 @@ form label {
     }
 
     .timeline .last .timeline-panel {
-        margin-top: 75px;
+        margin-top: 0px;
         left: calc(50% + 60px);
     }
 
@@ -794,13 +781,13 @@ form label {
     }
 
     ul.timeline:before, .arrowhead {
-        left: 10px;
+        left: 0px;
     }
 
     ul.timeline > li {
         min-height: 50px;
         margin-bottom: 20px;
-        padding-right: 5px;
+        padding-right: 2px;
         position: relative;
         width: 100%;
         float: left;
@@ -808,9 +795,9 @@ form label {
     }
 
     ul.timeline > li > .timeline-panel {
-        width: calc(100% - 40px);
-        width: -moz-calc(100% - 40px);
-        width: -webkit-calc(100% - 40px);
+        width: calc(100% - 20px);
+        width: -moz-calc(100% - 20px);
+        width: -webkit-calc(100% - 20px);
     }
 
 
@@ -821,14 +808,14 @@ form label {
     ul.timeline > li > .timeline-panel:before {
         border-left-width: 0;
         border-right-width: 15px;
-        left: -15px;
+        left: -7px;
         right: auto;
     }
 
     ul.timeline > li > .timeline-panel:after {
         border-left-width: 0;
         border-right-width: 14px;
-        left: -14px;
+        left: -7px;
         right: auto;
     }
 
@@ -840,7 +827,7 @@ form label {
     }
 
     ul.timeline > li > .timeline-badge, ul.timeline > li.timeline-inverted > .timeline-badge {
-        left: 15.5px;
+        left: 5.5px;
     }
 
     ul.timeline > li > .timeline-badge:before, ul.timeline > li.timeline-inverted > .timeline-badge:before {
