@@ -780,6 +780,10 @@ form label {
         bottom: -15px;
     }
 
+    ul.timeline:before, .arrowhead {
+        left: 0px;
+    }
+
     ul.timeline > li {
         min-height: 50px;
         margin-bottom: 20px;
@@ -804,12 +808,14 @@ form label {
     ul.timeline > li > .timeline-panel:before {
         border-left-width: 0;
         border-right-width: 15px;
+        left: 0px;
         right: auto;
     }
 
     ul.timeline > li > .timeline-panel:after {
         border-left-width: 0;
         border-right-width: 14px;
+        left: -7px;
         right: auto;
     }
 
@@ -818,6 +824,10 @@ form label {
         clear: left;
         margin-top: 0;
         margin-bottom: 20px;
+    }
+
+    ul.timeline > li > .timeline-badge, ul.timeline > li.timeline-inverted > .timeline-badge {
+        left: 0px;
     }
 
     ul.timeline > li > .timeline-badge:before, ul.timeline > li.timeline-inverted > .timeline-badge:before {
