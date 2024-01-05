@@ -1,7 +1,4 @@
-# Wedding Landing Page - Daeng Sherly Menikah
-
-![Thumbnail](/image/thumbnail-web-sherly-daeng-menikah.png)
-
+# Wedding Landing Page - Pablo & Monica
 
 # Section/Feature
 - Main Info
