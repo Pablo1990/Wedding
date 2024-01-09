@@ -19,6 +19,10 @@ body {
     font-size: 2rem;
 }
 
+a {
+    color: rgba(0, 0, 0, 1)
+}
+
 .navbar-item {
     line-height: 38px;
     font-weight: 300;
@@ -28,17 +32,17 @@ body {
 
 .hero .ampersand {
     font-size: 3rem;
-    color: #1e233e;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .navbar-item.is-active {
-    border-bottom: 2px solid #1e233e;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.8);
 }
 
 .hero {
     background: rgb(254, 253, 251) no-repeat fixed;
     background-size: cover;
-    color: #1e233e;
+    color: rgba(0, 0, 0, 0.8);
     box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     font-family: 'Gilda Display', sans-serif;
 }
@@ -48,12 +52,12 @@ body {
     font-weight: 1;
     font-size: 5rem;
     padding-bottom: 5px;
-    color: #1e233e;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .hero .subtitle {
     padding: 35px;
-    color: #1e233e;
+    color: rgba(0, 0, 0, 0.8);
     font-size: 1.3rem;
 }
 
@@ -64,7 +68,7 @@ body {
 
 .hero .hero-foot {
     height: 50px;
-    background: #1e233e;
+    background: rgba(0, 0, 0, 0.8);
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.082);
 }
 
@@ -113,7 +117,7 @@ body {
 }
 
 .main-content {
-    color: #1e233e;
+    color: rgba(0, 0, 0, 0.8);
     font-family: 'Gilda Display', sans-serif;
 }
 
@@ -131,7 +135,7 @@ body {
 .main-content .section-dark.resume {
     height: 400px;
     padding-top: 60px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
 }
 
 @media (max-width: 599px) {
@@ -166,7 +170,7 @@ body {
     border-radius: 5px;
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
 }
 
 .main-content .section-dark.my-work .work-item:hover {
@@ -290,7 +294,7 @@ body {
     line-height: 25px;
     text-align: center;
     vertical-align: middle;
-    background: #1e233e;
+    background: #000000;
     color: #FEFDFB;
 }
 
@@ -346,7 +350,7 @@ body {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: #1e233e;
+    background-color: rgba(0, 0, 0, 0.8);
     color: #FEFDFB;
     cursor: pointer;
     border-radius: 50%;
@@ -361,7 +365,7 @@ body.preloader-site {
 .preloader-wrapper {
     height: 100%;
     width: 100%;
-    background: #1e233e;
+    background: rgba(0, 0, 0, 0.8);
     position: fixed;
     top: 0;
     left: 0;
@@ -380,10 +384,10 @@ body.preloader-site {
 
 .btn-whatsapp:hover {
     color: white;
-    background-color: #1b41e0;
+    background-color: rgba(0, 0, 0, 0.8);
     font-size: 1.8rem;
     border-radius: 10px;
-    border: 2px solid #1e233e;
+    border: 2px solid rgba(0, 0, 0, 0.8);
     width: 210px;
     height: 65px;
     align-items: center;
@@ -392,7 +396,7 @@ body.preloader-site {
 
 
 .btn-whatsapp {
-    background-color: #1b41e0;
+    background-color: rgba(0, 0, 0, 0.8);
     width: 210px;
     height: 65px;
     color: white;
@@ -427,28 +431,6 @@ body.preloader-site {
     filter: grayscale(70%);
 }
 
-.voucher-code {
-    height: 55px;
-    max-width: 180px;
-    border: 2px solid #26ade4;
-    border-radius: 10px 0 0 10px;
-    font-size: 24px;
-    padding: 15px;
-}
-
-.btn-voucher-code {
-    height: 55px;
-    min-width: 100px;
-    border: 2px solid #26ade4;
-    background-color: #26ade4;
-    border-radius: 0 10px 10px 0;
-    font-size: 20px;
-    padding: 0;
-    margin: 0;
-    vertical-align: middle;
-    color: white;
-}
-
 .fa-copy {
     margin-right: 5px;
 }
@@ -466,7 +448,7 @@ body.preloader-site {
 }
 
 .foto1 {
-    background-image: linear-gradient(rgb(30, 35, 62, 0.75), rgba(48, 47, 47, 0.85)), url("../image/fontana.jpg");
+    background-image: linear-gradient(rgb(0, 0, 0, 0.75), rgba(48, 47, 47, 0.85)), url("../image/fontana.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -475,7 +457,7 @@ body.preloader-site {
 
 
 .foto2 {
-    background-image: linear-gradient(rgb(30, 35, 62, 0.75), rgba(48, 47, 47, 0.85)), url("../image/monse.jpg");
+    background-image: linear-gradient(rgb(0, 0, 0, 0.75), rgba(48, 47, 47, 0.85)), url("../image/monse.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -483,7 +465,7 @@ body.preloader-site {
 }
 
 .foto3 {
-    background-image: linear-gradient(rgb(30, 35, 62, 0.75), rgba(48, 47, 47, 0.85)), url("../image/hostal.jpg");
+    background-image: linear-gradient(rgb(0, 0, 0, 0.75), rgba(48, 47, 47, 0.85)), url("../image/hostal.jpg");
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -491,7 +473,7 @@ body.preloader-site {
 }
 
 .foto4 {
-    background-image: linear-gradient(rgb(30, 35, 62, 0.75), rgba(48, 47, 47, 0.85)), url("../image/alternatives.jpg");
+    background-image: linear-gradient(rgb(0, 0, 0, 0.75), rgba(48, 47, 47, 0.85)), url("../image/alternatives.jpg");
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -499,7 +481,7 @@ body.preloader-site {
 }
 
 .foto5 {
-    background-image: linear-gradient(rgb(30, 35, 62, 0.75), rgba(48, 47, 47, 0.85)), url("../image/puerto.jpeg");
+    background-image: linear-gradient(rgb(0, 0, 0, 0.75), rgba(48, 47, 47, 0.85)), url("../image/puerto.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -508,7 +490,7 @@ body.preloader-site {
 
 
 .foto6 {
-    background-image: linear-gradient(rgb(30, 35, 62, 0.75), rgba(48, 47, 47, 0.85)), url("../image/playa.jpeg");
+    background-image: linear-gradient(rgb(0, 0, 0, 0.75), rgba(48, 47, 47, 0.85)), url("../image/playa.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -516,7 +498,7 @@ body.preloader-site {
 }
 
 .foto7 {
-    background-image: linear-gradient(rgb(30, 35, 62, 0.75), rgba(48, 47, 47, 0.85)), url("../image/iglesia.jpeg");
+    background-image: linear-gradient(rgb(0, 0, 0, 0.75), rgba(48, 47, 47, 0.85)), url("../image/iglesia.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -524,7 +506,7 @@ body.preloader-site {
 }
 
 .foto8 {
-    background-image: linear-gradient(rgb(30, 35, 62, 0.75), rgba(48, 47, 47, 0.85)), url("../image/casino.jpeg");
+    background-image: linear-gradient(rgb(0, 0, 0, 0.75), rgba(48, 47, 47, 0.85)), url("../image/casino.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -559,7 +541,7 @@ body.preloader-site {
 }
 
 .instagram {
-    color: #1e233e;
+    color: rgba(0, 0, 0, 0.8);
     font-size: 2rem;
     font-weight: 500;
     margin-top: 0.5rem;
