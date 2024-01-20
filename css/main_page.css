@@ -20,7 +20,8 @@ body {
 }
 
 a {
-    color: rgba(0, 0, 0, 1)
+    color: rgba(0, 0, 0, 1);
+    text-decoration: underline;
 }
 
 .navbar-item {
@@ -96,6 +97,7 @@ a {
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a {
     color: #FEFDFB;
+    text-decoration: none;
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a:hover {
