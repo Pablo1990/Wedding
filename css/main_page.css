@@ -411,6 +411,7 @@ body.preloader-site {
     align-items: center;
     margin: 1rem;
     filter: grayscale(80%);
+    text-decoration: none;
 }
 
 .cashbac-logo-inline {
@@ -551,6 +552,7 @@ body.preloader-site {
     vertical-align: middle;
     text-align: center;
     padding: 10px;
+    text-decoration: none;
 }
 
 .fitted img {
